@@ -20,3 +20,17 @@ body{
 .text-bright{
   color: var(--lightBlue);
 }
+.modal-button{
+  display: block;
+  margin-bottom: 6px;
+}
+.to-trash{
+  cursor: pointer;
+  color: red;
+}
+/***** media queries *****/
+@media only screen and (max-width : 992px){
+  .cart-columns{
+    display: none;
+  }
+}

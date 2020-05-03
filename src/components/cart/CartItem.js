@@ -25,7 +25,7 @@ export default function CartItem({item, value}) {
                 <span className="btn btn-black mx-1" onClick={()=> increment(id)}> + </span>
             </div>
             <div className="col-10 mx-auto col-lg-2" onClick={() => {removeItem(id)}}>
-                to trash
+                <span className="to-trash">to trash</span>
             </div>
             <div className="col-10 mx-auto col-lg-2">
                 <strong>item total : ${total}</strong>
