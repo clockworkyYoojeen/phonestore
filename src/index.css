@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.progressbar{
+  height: 12px;
+  background-color: #8ae68a;
+  transition: all .9s;
+}
+.inputgroup{
+  width: 550px;
+  padding: 16px;
+  border: 1px solid #8ae68a;
+  border-radius: 8px;
+}
+.inputfield{
+  display: block;
+  border: 1px solid #dadada;
+  margin-bottom: 18px;
+}
+.wrong{
+  border-color: red;
+}
+.wrong:focus{
+  border-color: #dadada;
+}

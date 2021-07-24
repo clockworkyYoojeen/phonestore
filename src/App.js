@@ -11,6 +11,9 @@ import Cart from './components/cart/Cart'
 import Default from './components/Default'
 import Product from './components/Product'
 import Modal from './components/Modal'
+// import TestHooks from './components/TestHooks'
+// import TestHooks2 from './components/TestHooks2'
+import Test from './components/Test'
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route exact path="/" component={ProductList} ></Route>
         <Route path="/details" component={Details} ></Route>
         <Route path="/cart" component={Cart} ></Route>
+        <Route path="/test" component={Test} ></Route>
+        {/* <Route path="/testhooks" component={TestHooks} ></Route> */}
+        {/* <Route path="/testhooks2" component={TestHooks2} ></Route> */}
         <Route component={Default} ></Route>
       </Switch>
       <Modal />

@@ -17,6 +17,9 @@ https://www.iconfinder.com/Makoto_msk
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
                         <Link to="/" className="nav-link">Product</Link>
+                        <Link to="/test" className="nav-link">Test</Link>
+                        {/* <Link to="/testhooks" className="nav-link">Hooks</Link> */}
+                        {/* <Link to="/testhooks2" className="nav-link">Hooks 2</Link> */}
                     </li>
                 </ul>
                 <Link to="/cart" className="ml-auto">
